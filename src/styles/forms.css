@@ -1,0 +1,24 @@
+
+.card{
+    .inputs{
+        margin-top:40px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        input{
+            padding: 1.3rem 3.1rem;
+            border: none;
+            border-radius: 8px;
+            background-color: #35146b27;
+        }
+        .showP{
+            input{
+                width: 1rem; height: 1rem;
+                vertical-align: middle;
+                font-size: 1rem;
+            }
+        }
+    }
+    
+}
