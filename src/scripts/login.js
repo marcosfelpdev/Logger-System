@@ -9,7 +9,15 @@ btnLogin.addEventListener('click', (e)=>{
 
     if(userNameValue === '' || userPasswordValue === ''){
         e.preventDefault();
-        alert('Please fill in all the fields');
+        if(userNameValue === ''){
+            userName.style.backgroundColor = "rgba(242, 56, 62, 0.421)";
+            
+
+        }else{
+            userPassword.style.backgroundColor = "rgba(242, 56, 62, 0.421)";
+
+        }
+        // alert('Please fill in all the fields');
         return
     };
 });

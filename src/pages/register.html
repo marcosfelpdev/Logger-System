@@ -5,35 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/forms.css">
-    <title>login</title>
+    <title>register</title>
 </head>
 <body>
     <form class="card">
-        <h1>login</h1>
+        <h1>register</h1>
         <div class="inputs">
             <input 
-                id="username-login" 
+                id="username-register" 
                 type="text" 
                 placeholder="username"
             >
             <input 
-                id="password-login" 
+                id="password-register" 
                 type="password" 
                 placeholder="password"
             >
+            <input 
+                id="confirm-password-register" 
+                type="password" 
+                placeholder="confirm password"
+            >
             <div class="showP">
                 <input 
-                    id="checkbox-login" 
+                    id="checkbox-register" 
                     type="checkbox">
-                <label for="checkbox-login">Show Password</label>
+                <label for="checkbox-register">Show Password</label>
             </div>
         </div>
-        <button id="button-login">login</button>
+        <button id="button-register">register</button>
         <div class="recovery">
-            <small>forgot your password? recover it <a href="#">here</a>.</small>
-            <small>Don't have an account? register <a href="./register.html">here</a>.</small>
+            <small>Already have account? register <a href="./login.html">here</a>.</small>
         </div>
     </form>
-    <script src="../scripts/login.js"></script>
+    <script src="../scripts/register.js"></script>
 </body>
 </html>
